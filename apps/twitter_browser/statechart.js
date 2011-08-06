@@ -1,5 +1,5 @@
 TwitterBrowser.statechart = SC.Statechart.create({
-    initStatechart: 'search',
+    initialState: 'search',
 
     search: SC.State.extend({
         enterState: function() {
